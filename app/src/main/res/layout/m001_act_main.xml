@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="300dp"
+        android:id="@+id/cunghoagdao"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/icon_cunghoangdao"
+        android:layout_height="300dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/tv_icAries"
+            app:layout_constraintCircle="@id/cunghoagdao"
+            android:contentDescription="CUNG BẠCH DƯƠNG"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintCircleAngle="15"
+            android:layout_height="40dp"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/tv_icTaurus"
+            app:layout_constraintCircle="@id/cunghoagdao"
+            android:contentDescription="@string/taurus"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintCircleAngle="45"
+            android:layout_height="40dp"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/tv_icGemini"
+            app:layout_constraintCircle="@id/cunghoagdao"
+            android:contentDescription="CUNG SONG TỬ"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintCircleAngle="75"
+            android:layout_height="40dp"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/tv_icScorpio"
+            app:layout_constraintCircle="@id/cunghoagdao"
+            android:contentDescription="@string/scorpio"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintCircleAngle="225"
+            android:layout_height="40dp"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/tv_icCencer"
+            app:layout_constraintCircle="@id/cunghoagdao"
+            android:contentDescription="@string/cancer"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintCircleAngle="105"
+            android:layout_height="40dp"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/tv_icLeo"
+            app:layout_constraintCircle="@id/cunghoagdao"
+            android:contentDescription="@string/leo"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintCircleAngle="135"
+            android:layout_height="40dp"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/tv_icVirgo"
+            app:layout_constraintCircle="@id/cunghoagdao"
+            android:contentDescription="@string/virgo"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintCircleAngle="165"
+            android:layout_height="40dp"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/tv_icLibra"
+            app:layout_constraintCircle="@id/cunghoagdao"
+            android:contentDescription="@string/libra"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintCircleAngle="195"
+            android:layout_height="40dp"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/tv_icSagittarius"
+            app:layout_constraintCircle="@id/cunghoagdao"
+            android:contentDescription="@string/sagittarius"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintCircleAngle="255"
+            android:layout_height="40dp"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/tv_icCappricorn"
+            app:layout_constraintCircle="@id/cunghoagdao"
+            android:contentDescription="@string/cappricorn"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintCircleAngle="285"
+            android:layout_height="40dp"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/tv_icAquarius"
+            app:layout_constraintCircle="@id/cunghoagdao"
+            android:contentDescription="@string/aquarius"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintCircleAngle="315"
+            android:layout_height="40dp"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/ic_centerZodiac"
+            app:layout_constraintCircle="@id/cunghoagdao"
+            app:layout_constraintCircleRadius="0dp"
+            app:layout_constraintCircleAngle="0"
+            android:layout_height="40dp"
+            tools:ignore="MissingConstraints"
+            app:tint="@color/white" />
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/tv_icPisces"
+            app:layout_constraintCircle="@id/cunghoagdao"
+            android:contentDescription="@string/pisces"
+            app:layout_constraintCircleRadius="100dp"
+            app:layout_constraintCircleAngle="345"
+            android:layout_height="40dp"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:background="@drawable/bg_broder_zodiac"
+            android:elevation="1dp"
+            android:src="@drawable/aries"
+            android:padding="10dp"
+            android:id="@+id/iv_icon_zodiac_content"
+            android:layout_marginStart="10dp"
+            android:layout_height="70dp"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:background="@drawable/bg_broder_zodiac"
+            android:elevation="1dp"
+            android:id="@+id/tv_titleZodiac"
+            android:text="@string/aquarius"
+            android:textSize="12dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="25dp"/>
+    <LinearLayout
+        android:layout_width="340dp"
+        android:background="@drawable/bg_border"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="340dp">
+            <ScrollView
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="280dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:textSize="14dp"
+                android:id="@+id/tv"
+                android:text="@string/detail_aquarius"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"/>
+            </ScrollView>
+
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="100dp"
+            android:background="@drawable/bg_broder_zodiac"
+            android:text="xem them"
+            android:id="@+id/tv_bt_detailZodiac"
+            android:enabled="false"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:saveEnabled="false"
+            android:layout_marginStart="245dp"
+            android:layout_marginTop="350dp"
+            android:layout_height="30dp"/>
+    </FrameLayout>
+
+</LinearLayout>
